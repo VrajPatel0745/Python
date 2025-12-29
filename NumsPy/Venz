@@ -1,0 +1,82 @@
+It looks like you mean **`.venv`** (often mistyped as `.venz`).
+
+What is `.venv`?
+
+**`.venv`** stands for **Virtual Environment** in **Python**.
+
+A virtual environment is an **isolated Python environment** created inside your project folder. It allows each project to have its **own Python version and libraries**, without affecting other projects or the system Python.
+
+---
+
+### Why `.venv` is used
+
+* ✅ Avoids dependency conflicts
+* ✅ Keeps project libraries separate
+* ✅ Required for clean development & deployment
+* ✅ Commonly used with **VS Code**, **PyCharm**, **Django**, **Flask**, **ML projects**
+
+---
+
+### What’s inside a `.venv` folder
+
+* `Scripts/` (Windows) or `bin/` (Linux/macOS) → python & pip executables
+* `Lib/` → installed packages
+* `pyvenv.cfg` → environment configuration
+
+You normally **do not edit these files manually**.
+
+---
+
+### How to create `.venv`
+
+```bash
+python -m venv .venv
+```
+
+### How to activate it
+
+**Windows**
+
+```bash
+.venv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+source .venv/bin/activate
+```
+
+After activation, your terminal shows:
+
+```
+(.venv)
+```
+
+---
+
+### Why VS Code uses `.venv`
+
+VS Code automatically detects `.venv` and:
+
+* Uses the correct Python interpreter
+* Installs packages only for that project
+* Prevents global pip issues (like the ones you faced recently)
+
+---
+
+### Important tips
+
+* 🚫 Don’t upload `.venv` to GitHub
+* ✅ Add `.venv/` to `.gitignore`
+* ✅ Always activate `.venv` before running Python code
+
+---
+
+If you want, I can:
+
+* Fix your **pip not working issue using `.venv`**
+* Show **VS Code setup step-by-step**
+* Explain `.venv` for **AI / ML projects**
+
+Just tell me 👍
