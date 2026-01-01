@@ -1,0 +1,65 @@
+It is no python code. It is a maths problem.
+60,70,80,85,90,100
+7 students
+
+overall average?
+mdddle students 
+score apperaed
+
+mean -> total/number of students of students
+mean = (60 + 70 + 80 + 85 + 90 + 100) / 6
+mean = 485 / 6
+mean = 80.83 (approx)
+median -> middle score when arranged in order
+median = (80 + 85) / 2
+median = 82.5
+even meadian -> average of two middle scores
+odd median -> middle score
+mode -> score that appears most frequently
+mode = no mode (all scores appear only once)
+
+In ML learing
+
+100 students->95 boys ans 5 girls 
+unbalanced gender dataset
+accuracy -> 95%
+It is biased model(only predicts)
+
+pedication value =80/100
+actual value=60/100
+difference between predication and actual value is error
+
+predicated value y_pred=what our model thinks will happen
+
+student  Actual Predicted Error
+A        60     90         30
+B       70     80         10
+
+Analysing Error
+how much you earning?
+ep=30k
+al=3cr
+it called outlier
+
+data:[25,30,45,34,30000]
+outlier:30000
+al=30k
+60:100 ratio 
+60% strike 
+
+% ratio  
+
+Accuracy=(Correction predication/Total Predication)*100
+Precision=(True Positives/Total predicative positives)
+Recall=(True Positive/Total predictive positives)
+
+perentage - out of 100 - how much happened
+ration=part/whole 
+
+total =100
+correct=90
+wrong=10
+Accuracy=90%
+
+15 actual
+Precision=15/20=0.75=75%
