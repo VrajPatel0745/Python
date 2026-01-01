@@ -1,0 +1,16 @@
+What is the Sigmoid Function? (Core Idea)
+
+The sigmoid function takes any real number and squeezes it into a value between 0 and 1.
+
+Mathematical Formula
+The sigmoid function is mathematically represented as:σ(x) = 1 / (1 + e^(−x))
+
+Where:
+
+x → input (can be −∞ to +∞)
+
+e → Euler’s number (≈ 2.718)
+
+σ(x) → output in range (0, 1)
+
+📌 This is why sigmoid is perfect for probability output.
