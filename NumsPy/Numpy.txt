@@ -17,3 +17,4 @@ Python -m pip install --upgrade pip
 Python -m 
 Python -m pip install numpy
 
+
